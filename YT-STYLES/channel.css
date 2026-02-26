@@ -1,0 +1,33 @@
+.channels-grid {
+  margin-left: 16px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  row-gap: 25px;
+  column-gap: 10px;
+}
+
+.popular-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.popular-container a {
+  max-width: 130px;
+  max-height: 179px;
+}
+
+.popular-pfp {
+  height: 73%;
+  border-radius: 130px;
+}
+
+.popular-channel-name {
+  font-family: roboto, arial;
+  margin-top: 10px;
+  text-align: center;
+}
